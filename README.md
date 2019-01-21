@@ -19,7 +19,7 @@ Now the data is loaded into `data_set` variable which is essentially a dictionar
 print(data_set.keys())
 ```
 
-One of the keys of the dictionary will indicate labels which corresponds to column names in a pandas dataframe. In my file it is called `rows`. This data will mostly be stored in a list of 2d arrays consisting of column name and data type. There will another key refering to the actual data stored which will be list in the same order as the column names.
+One of the keys of the dictionary will indicate labels which corresponds to column names in a pandas dataframe. In my file it is called `rows`. This data will mostly be stored in a list of 2d arrays consisting of column name and data type. There will another key refering to the actual data stored which will be listed in the same order as the column names.
 
 The following code will extract the data and store it in a dictionary
 ```python
